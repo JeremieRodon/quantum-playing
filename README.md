@@ -10,10 +10,11 @@ Qiskit is mostly used to display quantum circuits and results, while Braket is u
 In order to use those notebooks, you need to have:
 - Qiskit (I'm using v0.45)
 - Braket SDK (I'm using v1.61.0)
-
+- qiskit_qasm3_import (allows Qiskit to read OpenQASM3 programs, I use that to convert Braket circuits to Qiskit circuits)
 ```
 pip install qiskit
 pip install amazon-braket-sdk
+pip install qiskit_qasm3_import
 ```
 
 The `quantum_adder.ipynb` notebook, an old (and wrong) one dating from my early experiments also make use of the `qiskit-braket-provider`
